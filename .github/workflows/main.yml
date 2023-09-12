@@ -20,9 +20,14 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
+        
       - name: Build
         run: |
           echo "Building the application..."
+
+      - name: Display hello-world.txt
+        run: |
+          cat hello-world.txt
 
   deploy:
     runs-on: ubuntu-latest
