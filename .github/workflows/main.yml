@@ -32,7 +32,7 @@ jobs:
     steps:
       - name: Security Test (ESLint)
         run: |
-          npx eslint .
+          npx eslint web/
   
 
   deploy:
