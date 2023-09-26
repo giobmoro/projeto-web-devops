@@ -23,6 +23,7 @@ module.exports = {
   },
   rules: {
     'no-eval': 'error',
-    'prefer-const': 'error'
+    'prefer-const': 'error',
+    'no-console': 'off'
   }
 }
